@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- Concatenar Listas: Crie duas listas 
+     diferentes e concatene-as em uma nova 
+     lista. Exiba a nova lista. -->
+
+     <script>
+        var lista = ["Kenzo", "Oi"]
+        var lista2 = [1, "oi", 2]
+        var lista_concatenada = []
+        
+        for (item in lista2) {
+            lista_concatenada.push(lista[item])
+        }
+
+        for (item in lista) {
+            lista_concatenada.push(lista2[item])
+        }
+        alert (lista_concatenada)
+
+     </script>
+</head>
+<body>
+    
+</body>
+</html>
